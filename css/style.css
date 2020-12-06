@@ -1,0 +1,56 @@
+/* 
+backgroung-header-color - FFFFFF +
+background-hero-color -2F303A +
+background-1sector-color -#E5E5E5*
+background-2sectoir-color -#F5F4FA+
+background-footer-color #2F303A*
+focus-color -#2196F3+
+текст шапки #212121+
+h1 -FFFFFF+
+контакты в обычном режиме #757575 +
+backgroung-button-color -#2196F3 +
+button-color - FFFFFF+
+h2-#212121+
+p -#757575
+h3 -#212121+
+Footer 
+Адрес FFFFFF +
+телевон и мыло rgba(255, 255, 255, 0.6) +
+*/
+:root {
+  --primari-text-color: rgba(255, 255, 255, 0.6);
+  --primari-title-color: #212121;
+  --second-title-color: #ffffff;
+  --backgroung-header-color: #ffffff;
+  --background-hero-color: #2f303a;
+  --primari-background-color: #e5e5e5;
+  --second-background-color: #f5f4fa;
+  --background-footer-color: #2f303a;
+  --hover-color: #2196f3;
+  --nav-color: #212121;
+  --header-contacts-color: #757575;
+  --backgroung-button-color: #2196f3;
+  --button-color: #ffffff;
+  --text-color: #757575;
+  --footer-adress-color: #ffffff;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+/* header */
+.header {
+  background-color: var(--backgroung-header-color);
+}
+
+.nav-contact .nav {
+  color: var(--nav-color);
+}
+
+.nav .hover,
+.nav focus {
+  color: var(--hover-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--background-footer-color);
+}
