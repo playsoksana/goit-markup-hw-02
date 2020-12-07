@@ -35,22 +35,54 @@ Footer
   --footer-adress-color: #ffffff;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
+/* Сброс стилей */
 
-/* header */
+/* header */ /* Убрать подчеркивание. точки и наклон!!!!!!!*/
 .header {
   background-color: var(--backgroung-header-color);
 }
 
-.nav-contact .nav {
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.header-nav {
   color: var(--nav-color);
 }
 
-.nav .hover,
-.nav focus {
+.header-nav:hover,
+.header-nav:focus {
+  color: var(--hover-color);
+}
+.header-nav.current {
   color: var(--hover-color);
 }
 
-/* footer */
+.header-contacts {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.header-contacts {
+  color: var(--header-contacts-color);
+}
+.header-contacts:hover,
+.header-focus {
+  color: var(--hover-color);
+}
+
+/* footer */ /* Убрать подчеркивание. точки и наклон!!!!!!!*/
 .footer {
   background-color: var(--background-footer-color);
+}
+.footer-address {
+  color: var(--footer-adress-color);
+}
+.footer-contacts {
+  color: var(--footer-contacts-color);
 }
