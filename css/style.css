@@ -34,10 +34,10 @@ Footer
   --text-color: #757575;
   --footer-adress-color: #ffffff;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --web-color: #2196f3;
 }
-/* Сброс стилей */
 
-/* header */ /* Убрать подчеркивание. точки и наклон!!!!!!!*/
+/* header */
 .header {
   background-color: var(--backgroung-header-color);
 }
@@ -76,7 +76,20 @@ Footer
   color: var(--hover-color);
 }
 
-/* footer */ /* Убрать подчеркивание. точки и наклон!!!!!!!*/
+/* Logo */
+.logo-web {
+  color: var(--web-color);
+}
+
+.header .logo-studio {
+  color: #212121;
+}
+
+.footer .logo-studio {
+  color: #ffffff;
+}
+
+/* footer */
 .footer {
   background-color: var(--background-footer-color);
 }
