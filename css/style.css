@@ -1,22 +1,3 @@
-/* 
-backgroung-header-color - FFFFFF +
-background-hero-color -2F303A +
-background-1sector-color -#E5E5E5*
-background-2sectoir-color -#F5F4FA+
-background-footer-color #2F303A*
-focus-color -#2196F3+
-текст шапки #212121+
-h1 -FFFFFF+
-контакты в обычном режиме #757575 +
-backgroung-button-color -#2196F3 +
-button-color - FFFFFF+
-h2-#212121+
-p -#757575
-h3 -#212121+
-Footer 
-Адрес FFFFFF +
-телевон и мыло rgba(255, 255, 255, 0.6) +
-*/
 :root {
   --primari-text-color: rgba(255, 255, 255, 0.6);
   --primari-title-color: #212121;
@@ -27,6 +8,7 @@ Footer
   --second-background-color: #f5f4fa;
   --background-footer-color: #2f303a;
   --hover-color: #2196f3;
+  --acccent-color: #2196f3;
   --nav-color: #212121;
   --header-contacts-color: #757575;
   --backgroung-button-color: #2196f3;
@@ -37,65 +19,182 @@ Footer
   --web-color: #2196f3;
 }
 
-/* header */
-.header {
-  background-color: var(--backgroung-header-color);
-}
-
-.list {
-  list-style: none;
-}
+/* Сброс стилей и основные стили*/
 
 .link {
   text-decoration: none;
   font-style: normal;
 }
-
-.header-nav {
-  color: var(--nav-color);
+ul {
+  list-style: none;
 }
 
-.header-nav:hover,
-.header-nav:focus {
-  color: var(--hover-color);
-}
-.header-nav.current {
-  color: var(--hover-color);
-}
+main {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 
-.header-contacts {
-  text-decoration: none;
-  font-style: normal;
-}
-
-.header-contacts {
-  color: var(--header-contacts-color);
-}
-.header-contacts:hover,
-.header-focus {
-  color: var(--hover-color);
+  background-color: var(--primari-background-color);
+  color: var(--text-color);
 }
 
 /* Logo */
-.logo-web {
+.web-logo {
   color: var(--web-color);
 }
-
-.header .logo-studio {
-  color: #212121;
+.logo-header {
+  color: var(--primari-title-color);
+}
+.logo-footer {
+  color: var(--second-title-color);
+}
+.web-logo,
+.logo-header,
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.5;
 }
 
-.footer .logo-studio {
-  color: #ffffff;
+/* header */
+header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+
+  background-color: var(--backgroung-header-color);
+}
+
+.nav-header:hover,
+.nav-header:focus {
+  color: var(--acccent-color);
+}
+.nav-header {
+  color: var(--nav-color);
+}
+
+.adress-header {
+  color: var(--header-contacts-color);
+}
+.adress-header:hover,
+.adress-header:focus {
+  color: var(--acccent-color);
+}
+
+.current {
+  color: var(--acccent-color);
 }
 
 /* footer */
-.footer {
+footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+
   background-color: var(--background-footer-color);
 }
-.footer-address {
+.footer .link {
   color: var(--footer-adress-color);
 }
-.footer-contacts {
+
+.contacts-footer .link {
   color: var(--footer-contacts-color);
+}
+
+/* Герой index */
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  background-color: var(--background-hero-color);
+  color: var(--second-title-color);
+}
+
+.hero-link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  color: var(--second-title-color);
+  background-color: var(--acccent-color);
+}
+
+/*  преимущество компании*/
+h2,
+h3 {
+  color: var(--primari-title-color);
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.advantage h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.advantage p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  background-color: var(--second-background-color);
+}
+
+.team h3 {
+  font-weight: 500;
+}
+
+/* Страница пoртфолио */
+
+/* кнопки */
+.button-poftfolio {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63px;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  background-color: var(--second-background-color);
+  color: var(--primari-title-color);
+}
+
+.button-porffolio:hover,
+.button-portfolio:focus {
+  background-color: var(--acccent-color);
+  color: var(--button-color);
+}
+
+/* работы портфолио */
+.works-portfolio {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works-portfolio p {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
