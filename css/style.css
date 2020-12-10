@@ -1,22 +1,13 @@
 :root {
-  --primari-text-color: rgba(255, 255, 255, 0.6);
-  --primari-title-color: #212121;
-  --second-title-color: #ffffff;
-  --backgroung-header-color: #ffffff;
-  --background-hero-color: #2f303a;
-  --primari-background-color: #e5e5e5;
-  --second-background-color: #f5f4fa;
-  --background-footer-color: #2f303a;
-  --hover-color: #2196f3;
+  --primari-title: #212121;
+  --second-title: #ffffff;
+  --backgroung-header: #ffffff;
+  --primari-background: #e5e5e5;
+  --second-background: #f5f4fa;
   --acccent-color: #2196f3;
-  --nav-color: #212121;
-  --header-contacts-color: #757575;
-  --backgroung-button-color: #2196f3;
-  --button-color: #ffffff;
   --text-color: #757575;
-  --footer-adress-color: #ffffff;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
-  --web-color: #2196f3;
+  --dark-background: #2f303a;
 }
 
 /* Сброс стилей и основные стили*/
@@ -33,19 +24,19 @@ main {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 
-  background-color: var(--primari-background-color);
+  background-color: var(--primari-background);
   color: var(--text-color);
 }
 
 /* Logo */
 .web-logo {
-  color: var(--web-color);
+  color: var(--acccent-color);
 }
 .logo-header {
-  color: var(--primari-title-color);
+  color: var(--primari-title);
 }
 .logo-footer {
-  color: var(--second-title-color);
+  color: var(--second-title);
 }
 .web-logo,
 .logo-header,
@@ -63,7 +54,7 @@ header {
   font-size: 14px;
   line-height: 1.18;
 
-  background-color: var(--backgroung-header-color);
+  background-color: var(--backgroung-header);
 }
 
 .nav-header:hover,
@@ -71,11 +62,11 @@ header {
   color: var(--acccent-color);
 }
 .nav-header {
-  color: var(--nav-color);
+  color: var(--primari-title);
 }
 
 .adress-header {
-  color: var(--header-contacts-color);
+  color: var(--text-color);
 }
 .adress-header:hover,
 .adress-header:focus {
@@ -92,13 +83,13 @@ footer {
   font-size: 14px;
   line-height: 1.7;
 
-  background-color: var(--background-footer-color);
+  background-color: var(--dark-background);
 }
 .footer .link {
-  color: var(--footer-adress-color);
+  color: var(--second-title);
 }
 
-.contacts-footer .link {
+.footer-contacts .link {
   color: var(--footer-contacts-color);
 }
 
@@ -110,8 +101,8 @@ footer {
   letter-spacing: 0.06em;
   text-align: center;
 
-  background-color: var(--background-hero-color);
-  color: var(--second-title-color);
+  background-color: var(--dark-background);
+  color: var(--second-title);
 }
 
 .hero-link {
@@ -128,7 +119,7 @@ footer {
 /*  преимущество компании*/
 h2,
 h3 {
-  color: var(--primari-title-color);
+  color: var(--primari-title);
 }
 
 h2 {
@@ -158,7 +149,7 @@ h2 {
   letter-spacing: 0.03em;
   text-align: center;
 
-  background-color: var(--second-background-color);
+  background-color: var(--second-background);
 }
 
 .team h3 {
@@ -168,21 +159,21 @@ h2 {
 /* Страница пoртфолио */
 
 /* кнопки */
-.button-portfolio {
+[button] {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.63px;
   letter-spacing: 0.03em;
   text-align: center;
 
-  background-color: var(--second-background-color);
-  color: var(--primari-title-color);
+  background-color: var(--second-background);
+  color: var(--primari-title);
 }
 
-.button-porffolio:hover,
-.button-portfolio:focus {
+[type="button"]:hover,
+[type="button"]:focus {
   background-color: var(--acccent-color);
-  color: var(--button-color);
+  color: var(--second-title);
 }
 
 /* работы портфолио */
