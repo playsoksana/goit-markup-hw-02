@@ -28,6 +28,10 @@ main {
   color: var(--text-color);
 }
 
+.center-text {
+  text-align: center;
+}
+
 /* Logo */
 .web-logo {
   color: var(--acccent-color);
@@ -99,7 +103,6 @@ footer {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
 
   background-color: var(--dark-background);
   color: var(--second-title);
@@ -127,7 +130,6 @@ h2 {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-align: center;
 }
 
 .advantage h3 {
@@ -147,7 +149,6 @@ h2 {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-align: center;
 
   background-color: var(--second-background);
 }
@@ -164,7 +165,6 @@ h2 {
   font-weight: 500;
   line-height: 1.63px;
   letter-spacing: 0.03em;
-  text-align: center;
 
   background-color: var(--second-background);
   color: var(--primari-title);
