@@ -58,6 +58,7 @@ header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.18;
+  letter-spacing: 0.02em;
 
   background-color: var(--backgroung-header);
 }
