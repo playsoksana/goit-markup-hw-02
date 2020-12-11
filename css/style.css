@@ -48,7 +48,8 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.5;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 /* header */
@@ -99,6 +100,10 @@ footer {
 
 /* Герой index */
 .hero {
+  background-color: var(--dark-background);
+}
+
+.hero h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -106,6 +111,7 @@ footer {
 
   background-color: var(--dark-background);
   color: var(--second-title);
+  text-transform: uppercase;
 }
 
 .hero-link {
@@ -115,7 +121,7 @@ footer {
   letter-spacing: 0.06em;
   text-align: center;
 
-  color: var(--second-title-color);
+  color: var(--second-title);
   background-color: var(--acccent-color);
 }
 
