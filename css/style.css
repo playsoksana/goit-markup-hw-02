@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+
 :root {
   --primari-title: #212121;
   --second-title: #ffffff;
@@ -196,4 +208,9 @@ h2 {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.box {
+  outline: 2px solid tomato;
+  background-color: green;
 }
