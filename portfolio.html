@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!--Header-->
-    <header>
+    <header class="header">
         <nav>
-            <a href="./index.html" class="link"><span class="web-logo">Web</span><span class="logo-header">Studio</span></a>
-    
+            <a href="./index.html" class="link"><span class="web-logo">Web</span><span
+                    class="logo-header">Studio</span></a>
+
             <ul class="list">
                 <li>
                     <a href="./index.html" class="nav-header link">Студия</a>
@@ -29,6 +32,7 @@
                     <a href="./contacts.html" class="nav-header link">Контакты</a>
                 </li>
             </ul>
+
         </nav>
         <address>
             <a href="mailto:info@devstudio.com" class="adress-header link">info@devstudio.com</a>
@@ -36,91 +40,91 @@
         </address>
     </header>
     <!--Main-->
-    <main>
+    <main class="portfolio">
         <h1>Страница портфолио</h1> <!--не отображается-->        
       <section>
         <h2>Cектор фильтра</h2> <!--не отображается-->
           <ul class="list">
             <li>
-                <button type="button">Все</button>
+                <button type="button" class="button-portfolio">Все</button>
             </li>
             <li>
-                <button type="button">Веб-сайты</button>
+                <button type="button" class="button-portfolio">Веб-сайты</button>
             </li>
             <li>
-                <button type="button">Приложения</button>
+                <button type="button" class="button-portfolio">Приложения</button>
             </li>
             <li>
-                <button type="button">Дизайн</button>
+                <button type="button" class="button-portfolio">Дизайн</button>
             </li>
             <li>
-                <button type="button">Маркетинг</button>
+                <button type="button"  class="button-portfolio">Маркетинг</button>
             </li>
         </ul>
           <ul class="works-portfolio list">
               <li>
                   <img src="./images/techno-pig.jpg" alt="Открытый ноутбук, на экране которого страница команды" width="370"> 
-                  <h3 class="title-list">Технокряк</h3>   
+                  <h3 class="title-portfolio">Технокряк</h3>   
                   <p>Веб-сайт</p>           
               </li>
               <li>
                   <img src="./images/poster-new-orlean-vs-golden-star.jpg" alt="Два боскедболиста " width="370">
-                  <h3 class="title-list">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                  <h3 class="title-portfolio">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
                   <p>Дизайн</p>
               </li>
               <li>
                   <img src="./images/restaurant-seafood.jpg" alt="Эмблема рыбного ресторана" width="370">
-                  <h3 class="title-list">Ресторан <span lang="en">Seafood</span></h3>
+                  <h3 class="title-portfolio">Ресторан <span lang="en">Seafood</span></h3>
                   <p>Приложение</p>
               </li>
               <li>
                   <img src="./images/project-prime.jpg" alt="Безпроводные наушники" width="370">
-                  <h3 class="title-list">Проект <span lang="en">Prime</span></h3>
+                  <h3 class="title-portfolio">Проект <span lang="en">Prime</span></h3>
                   <p>Маркетинг</p>
               </li>
               <li>
                   <img src="./images/project-boxes.jpg" alt="Две коробки" width="370">
-                  <h3 class="title-list">Проект <span lang="en">Boxes</span></h3>
+                  <h3 class="title-portfolio">Проект <span lang="en">Boxes</span></h3>
                   <p>Приложение</p>
               </li>
               <li>
                   <img src="./images/inspiration-has-no-borders.jpg" alt="Монитор" width="370">
-                  <h3 class="title-list"><span lang="en">Inspiration has no Borders</span></h3>
+                  <h3 class="title-portfolio"><span lang="en">Inspiration has no Borders</span></h3>
                   <p>Веб-сайт</p>
               </li>
               <li>
                   <img src="./images/limited-edition.jpg" alt="Переодическое издание" width="370">
-                  <h3 class="title-list">Издание <span lang="en">Limited Edition</span></h3>
+                  <h3 class="title-portfolio">Издание <span lang="en">Limited Edition</span></h3>
                   <p>Дизайн</p>
               </li>
               <li>
                   <img src="./images/project-lab.jpg" alt="Бейдж с логотипом" width="370">
-                  <h3 class="title-list">Проект <span lang="en">LAB</span></h3>
+                  <h3 class="title-portfolio">Проект <span lang="en">LAB</span></h3>
                   <p>Маркетинг</p>
               </li>
               <li>
                   <img src="./images/growing-business.jpg" alt="Работа в сайте за ноутбуком" width="370">
-                  <h3 class="title-list"><span lang="">Growing Business</span></h3>
+                  <h3 class="title-portfolio"><span lang="">Growing Business</span></h3>
                   <p>Приложение</p>
               </li>
           </ul>
       </section>
     </main>
     <!--Footer-->
-    <footer class="footer">
-        <a href="./index.html" class="link"><span class="web-logo">Web</span><span class="logo-footer">Studio</span></a>
-        <address class="link">
-            <p class="link">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="contacts-footer list">
-                <li>
-                    <a href="mielto:info@example.com" class="link">info@example.com</a>
-                </li>
-                <li>
-                    <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-    </footer>
+<footer class="footer">
+    <a href="./index.html" class="link"><span class="web-logo">Web</span><span class="logo-footer">Studio</span></a>
+    <address class="link">
+        <p class="link">г. Киев, пр-т Леси Украинки, 26</p>
+        <ul class="list footer-contacts">
+            <li>
+                <a href="mielto:info@example.com" class="link">info@example.com</a>
+            </li>
+            <li>
+                <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+            </li>
+        </ul>
+    </address>
+</footer>
 </body>
 
 </html>
