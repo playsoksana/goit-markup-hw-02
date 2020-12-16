@@ -1,5 +1,5 @@
 html {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
@@ -7,7 +7,6 @@ box-sizing: border-box;
 *::after {
   box-sizing: inherit;
 }
-
 
 :root {
   --primari-title: #212121;
@@ -27,7 +26,7 @@ box-sizing: border-box;
   text-decoration: none;
   color: inherit;
   font-style: normal;
-  }
+}
 
 .list {
   list-style: none;
@@ -116,22 +115,24 @@ body {
 /* Герой index */
 
 .hero {
+  background-color: var(--dark-background);
+  color: var(--second-title);
+}
+
+.title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  background-color: var(--dark-background);
-  color: var(--second-title);
 }
 
 .hero-link {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
-  letter-spacing: 0.06em;
   text-align: center;
+  letter-spacing: 0.06em;
 
   color: var(--second-title);
   background-color: var(--acccent-color);
@@ -153,7 +154,9 @@ body {
 
 .title-list {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -176,6 +179,8 @@ body {
 /* кнопки */
 
 .button-portfolio {
+  font-family: Roboto, sans-serif;
+
   font-size: 16px;
   font-weight: 500;
   line-height: 1.63;
@@ -186,15 +191,14 @@ body {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
- 
   background-color: var(--acccent-color);
   color: var(--second-title);
 }
 
 /* работы портфолио */
 .works-portfolio {
-font-size: 16px;
-line-height: 2;
+  font-size: 16px;
+  line-height: 2;
 }
 
 .title-portfolio {
